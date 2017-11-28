@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1BF9AE1F8AE7AB00CEAB84 /* carpenterPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1BF9AD1F8AE7AB00CEAB84 /* carpenterPopup.swift */; };
+		1E1BF9B01F8AEEB100CEAB84 /* popupChinn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1BF9AF1F8AEEB100CEAB84 /* popupChinn.swift */; };
+		1E1BF9B21F8AF3D300CEAB84 /* popupMcInnish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1BF9B11F8AF3D300CEAB84 /* popupMcInnish.swift */; };
+		1E39CAE81FAD1A68005CD2CD /* popupCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39CAE71FAD1A68005CD2CD /* popupCalendarViewController.swift */; };
+		1E39CAEA1FAD1B93005CD2CD /* addEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E39CAE91FAD1B93005CD2CD /* addEvent.swift */; };
+		1E82D16A1F82C45E000E28F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82D1691F82C45E000E28F5 /* AppDelegate.swift */; };
+		1E82D16C1F82C45E000E28F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82D16B1F82C45E000E28F5 /* ViewController.swift */; };
+		1E82D16F1F82C45E000E28F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E82D16D1F82C45E000E28F5 /* Main.storyboard */; };
+		1E82D1711F82C45E000E28F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E82D1701F82C45E000E28F5 /* Assets.xcassets */; };
+		1E82D1741F82C45E000E28F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E82D1721F82C45E000E28F5 /* LaunchScreen.storyboard */; };
+		1E82D17F1F82C45E000E28F5 /* NTXSoccerFieldMapsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82D17E1F82C45E000E28F5 /* NTXSoccerFieldMapsTests.swift */; };
+		1E82D18A1F82C45E000E28F5 /* NTXSoccerFieldMapsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82D1891F82C45E000E28F5 /* NTXSoccerFieldMapsUITests.swift */; };
+		1E82D1981F82CB5D000E28F5 /* popupWisemen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82D1971F82CB5D000E28F5 /* popupWisemen.swift */; };
+		1E82D19D1F82DB3B000E28F5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E82D19C1F82DB3B000E28F5 /* MapKit.framework */; };
+		1E9F1B1C1FA67302003B4EE6 /* popupRussellCreek.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B1B1FA67302003B4EE6 /* popupRussellCreek.swift */; };
+		1E9F1B1E1FA67575003B4EE6 /* popupRussellImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B1D1FA67574003B4EE6 /* popupRussellImage.swift */; };
+		1E9F1B201FA67BCD003B4EE6 /* popupColony.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B1F1FA67BCD003B4EE6 /* popupColony.swift */; };
+		1E9F1B221FA67F09003B4EE6 /* popupColonyImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B211FA67F09003B4EE6 /* popupColonyImage.swift */; };
+		1E9F1B241FA6843D003B4EE6 /* popupPit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B231FA6843D003B4EE6 /* popupPit.swift */; };
+		1E9F1B261FA68849003B4EE6 /* popupPitImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B251FA68849003B4EE6 /* popupPitImage.swift */; };
+		1E9F1B2C1FA69840003B4EE6 /* popupRailroad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B2B1FA69840003B4EE6 /* popupRailroad.swift */; };
+		1E9F1B2E1FA69984003B4EE6 /* popupImageRailroad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B2D1FA69984003B4EE6 /* popupImageRailroad.swift */; };
+		1E9F1B301FA69DEC003B4EE6 /* popupDallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B2F1FA69DEC003B4EE6 /* popupDallas.swift */; };
+		1E9F1B321FA6A097003B4EE6 /* popupDallasImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E9F1B311FA6A097003B4EE6 /* popupDallasImage.swift */; };
+		1EB91FA71FA91E48006C42CC /* popupUtdallas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB91FA61FA91E48006C42CC /* popupUtdallas.swift */; };
+		1EB91FA91FA91FAF006C42CC /* popupUtdimage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB91FA81FA91FAF006C42CC /* popupUtdimage.swift */; };
+		1EB91FAB1FA927D5006C42CC /* searchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB91FAA1FA927D5006C42CC /* searchBar.swift */; };
+		1EBB72E71FA12AC1006C6E1E /* PopupWisemenImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB72E61FA12AC1006C6E1E /* PopupWisemenImage.swift */; };
+		1EBB72ED1FA144DF006C6E1E /* PopupChinnImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB72EC1FA144DF006C6E1E /* PopupChinnImage.swift */; };
+		1EBB72EF1FA14A34006C6E1E /* popupMcinnishImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBB72EE1FA14A34006C6E1E /* popupMcinnishImage.swift */; };
+		1ECA15061FA23A5F001A8963 /* popupCarpenterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA15051FA23A5F001A8963 /* popupCarpenterImage.swift */; };
+		1ECA15081FA24112001A8963 /* popupMoneyGram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA15071FA24112001A8963 /* popupMoneyGram.swift */; };
+		1ECA150A1FA24526001A8963 /* popupMoneyGramImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA15091FA24526001A8963 /* popupMoneyGramImage.swift */; };
+		1ECA150C1FA24D50001A8963 /* popupRichland.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA150B1FA24D50001A8963 /* popupRichland.swift */; };
+		1ECA150E1FA24F59001A8963 /* popupRichlandImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECA150D1FA24F59001A8963 /* popupRichlandImage.swift */; };
+		1ECDEFA81FAB9D0A00AD4667 /* popupLeague.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECDEFA71FAB9D0A00AD4667 /* popupLeague.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E82D17B1F82C45E000E28F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E82D15E1F82C45D000E28F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E82D1651F82C45D000E28F5;
+			remoteInfo = NTXSoccerFieldMaps;
+		};
+		1E82D1861F82C45E000E28F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E82D15E1F82C45D000E28F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E82D1651F82C45D000E28F5;
+			remoteInfo = NTXSoccerFieldMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E1BF9AD1F8AE7AB00CEAB84 /* carpenterPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = carpenterPopup.swift; sourceTree = "<group>"; };
+		1E1BF9AF1F8AEEB100CEAB84 /* popupChinn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupChinn.swift; sourceTree = "<group>"; };
+		1E1BF9B11F8AF3D300CEAB84 /* popupMcInnish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupMcInnish.swift; sourceTree = "<group>"; };
+		1E39CAE71FAD1A68005CD2CD /* popupCalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupCalendarViewController.swift; sourceTree = "<group>"; };
+		1E39CAE91FAD1B93005CD2CD /* addEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addEvent.swift; sourceTree = "<group>"; };
+		1E82D1661F82C45E000E28F5 /* NTXSoccerFieldMaps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTXSoccerFieldMaps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E82D1691F82C45E000E28F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E82D16B1F82C45E000E28F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E82D16E1F82C45E000E28F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E82D1701F82C45E000E28F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E82D1731F82C45E000E28F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E82D1751F82C45E000E28F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E82D17A1F82C45E000E28F5 /* NTXSoccerFieldMapsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTXSoccerFieldMapsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E82D17E1F82C45E000E28F5 /* NTXSoccerFieldMapsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTXSoccerFieldMapsTests.swift; sourceTree = "<group>"; };
+		1E82D1801F82C45E000E28F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E82D1851F82C45E000E28F5 /* NTXSoccerFieldMapsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTXSoccerFieldMapsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E82D1891F82C45E000E28F5 /* NTXSoccerFieldMapsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTXSoccerFieldMapsUITests.swift; sourceTree = "<group>"; };
+		1E82D18B1F82C45E000E28F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E82D1971F82CB5D000E28F5 /* popupWisemen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupWisemen.swift; sourceTree = "<group>"; };
+		1E82D19C1F82DB3B000E28F5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1E9F1B1B1FA67302003B4EE6 /* popupRussellCreek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupRussellCreek.swift; sourceTree = "<group>"; };
+		1E9F1B1D1FA67574003B4EE6 /* popupRussellImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupRussellImage.swift; sourceTree = "<group>"; };
+		1E9F1B1F1FA67BCD003B4EE6 /* popupColony.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupColony.swift; sourceTree = "<group>"; };
+		1E9F1B211FA67F09003B4EE6 /* popupColonyImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupColonyImage.swift; sourceTree = "<group>"; };
+		1E9F1B231FA6843D003B4EE6 /* popupPit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupPit.swift; sourceTree = "<group>"; };
+		1E9F1B251FA68849003B4EE6 /* popupPitImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupPitImage.swift; sourceTree = "<group>"; };
+		1E9F1B2B1FA69840003B4EE6 /* popupRailroad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupRailroad.swift; sourceTree = "<group>"; };
+		1E9F1B2D1FA69984003B4EE6 /* popupImageRailroad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupImageRailroad.swift; sourceTree = "<group>"; };
+		1E9F1B2F1FA69DEC003B4EE6 /* popupDallas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupDallas.swift; sourceTree = "<group>"; };
+		1E9F1B311FA6A097003B4EE6 /* popupDallasImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupDallasImage.swift; sourceTree = "<group>"; };
+		1EB91FA61FA91E48006C42CC /* popupUtdallas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupUtdallas.swift; sourceTree = "<group>"; };
+		1EB91FA81FA91FAF006C42CC /* popupUtdimage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupUtdimage.swift; sourceTree = "<group>"; };
+		1EB91FAA1FA927D5006C42CC /* searchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchBar.swift; sourceTree = "<group>"; };
+		1EBB72E61FA12AC1006C6E1E /* PopupWisemenImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupWisemenImage.swift; sourceTree = "<group>"; };
+		1EBB72EC1FA144DF006C6E1E /* PopupChinnImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupChinnImage.swift; sourceTree = "<group>"; };
+		1EBB72EE1FA14A34006C6E1E /* popupMcinnishImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupMcinnishImage.swift; sourceTree = "<group>"; };
+		1ECA15051FA23A5F001A8963 /* popupCarpenterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupCarpenterImage.swift; sourceTree = "<group>"; };
+		1ECA15071FA24112001A8963 /* popupMoneyGram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupMoneyGram.swift; sourceTree = "<group>"; };
+		1ECA15091FA24526001A8963 /* popupMoneyGramImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupMoneyGramImage.swift; sourceTree = "<group>"; };
+		1ECA150B1FA24D50001A8963 /* popupRichland.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupRichland.swift; sourceTree = "<group>"; };
+		1ECA150D1FA24F59001A8963 /* popupRichlandImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupRichlandImage.swift; sourceTree = "<group>"; };
+		1ECDEFA71FAB9D0A00AD4667 /* popupLeague.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popupLeague.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E82D1631F82C45D000E28F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E82D19D1F82DB3B000E28F5 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82D1771F82C45E000E28F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82D1821F82C45E000E28F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E82D15D1F82C45D000E28F5 = {
+			isa = PBXGroup;
+			children = (
+				1E39CAE71FAD1A68005CD2CD /* popupCalendarViewController.swift */,
+				1E39CAE91FAD1B93005CD2CD /* addEvent.swift */,
+				1ECDEFA71FAB9D0A00AD4667 /* popupLeague.swift */,
+				1E9F1B2B1FA69840003B4EE6 /* popupRailroad.swift */,
+				1E9F1B2D1FA69984003B4EE6 /* popupImageRailroad.swift */,
+				1E9F1B2F1FA69DEC003B4EE6 /* popupDallas.swift */,
+				1E9F1B311FA6A097003B4EE6 /* popupDallasImage.swift */,
+				1EB91FA61FA91E48006C42CC /* popupUtdallas.swift */,
+				1EB91FA81FA91FAF006C42CC /* popupUtdimage.swift */,
+				1EB91FAA1FA927D5006C42CC /* searchBar.swift */,
+				1E9F1B251FA68849003B4EE6 /* popupPitImage.swift */,
+				1E9F1B211FA67F09003B4EE6 /* popupColonyImage.swift */,
+				1E9F1B231FA6843D003B4EE6 /* popupPit.swift */,
+				1E9F1B1B1FA67302003B4EE6 /* popupRussellCreek.swift */,
+				1E9F1B1D1FA67574003B4EE6 /* popupRussellImage.swift */,
+				1E9F1B1F1FA67BCD003B4EE6 /* popupColony.swift */,
+				1ECA150B1FA24D50001A8963 /* popupRichland.swift */,
+				1ECA150D1FA24F59001A8963 /* popupRichlandImage.swift */,
+				1ECA15071FA24112001A8963 /* popupMoneyGram.swift */,
+				1ECA15091FA24526001A8963 /* popupMoneyGramImage.swift */,
+				1ECA15051FA23A5F001A8963 /* popupCarpenterImage.swift */,
+				1EBB72EE1FA14A34006C6E1E /* popupMcinnishImage.swift */,
+				1EBB72E61FA12AC1006C6E1E /* PopupWisemenImage.swift */,
+				1E82D1681F82C45E000E28F5 /* NTXSoccerFieldMaps */,
+				1E82D17D1F82C45E000E28F5 /* NTXSoccerFieldMapsTests */,
+				1E82D1881F82C45E000E28F5 /* NTXSoccerFieldMapsUITests */,
+				1E82D1671F82C45E000E28F5 /* Products */,
+				1E82D19B1F82DB3B000E28F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E82D1671F82C45E000E28F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E82D1661F82C45E000E28F5 /* NTXSoccerFieldMaps.app */,
+				1E82D17A1F82C45E000E28F5 /* NTXSoccerFieldMapsTests.xctest */,
+				1E82D1851F82C45E000E28F5 /* NTXSoccerFieldMapsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E82D1681F82C45E000E28F5 /* NTXSoccerFieldMaps */ = {
+			isa = PBXGroup;
+			children = (
+				1E82D1691F82C45E000E28F5 /* AppDelegate.swift */,
+				1E82D16B1F82C45E000E28F5 /* ViewController.swift */,
+				1E82D16D1F82C45E000E28F5 /* Main.storyboard */,
+				1EBB72EC1FA144DF006C6E1E /* PopupChinnImage.swift */,
+				1E1BF9AD1F8AE7AB00CEAB84 /* carpenterPopup.swift */,
+				1E1BF9AF1F8AEEB100CEAB84 /* popupChinn.swift */,
+				1E1BF9B11F8AF3D300CEAB84 /* popupMcInnish.swift */,
+				1E82D1971F82CB5D000E28F5 /* popupWisemen.swift */,
+				1E82D1701F82C45E000E28F5 /* Assets.xcassets */,
+				1E82D1721F82C45E000E28F5 /* LaunchScreen.storyboard */,
+				1E82D1751F82C45E000E28F5 /* Info.plist */,
+			);
+			path = NTXSoccerFieldMaps;
+			sourceTree = "<group>";
+		};
+		1E82D17D1F82C45E000E28F5 /* NTXSoccerFieldMapsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E82D17E1F82C45E000E28F5 /* NTXSoccerFieldMapsTests.swift */,
+				1E82D1801F82C45E000E28F5 /* Info.plist */,
+			);
+			path = NTXSoccerFieldMapsTests;
+			sourceTree = "<group>";
+		};
+		1E82D1881F82C45E000E28F5 /* NTXSoccerFieldMapsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E82D1891F82C45E000E28F5 /* NTXSoccerFieldMapsUITests.swift */,
+				1E82D18B1F82C45E000E28F5 /* Info.plist */,
+			);
+			path = NTXSoccerFieldMapsUITests;
+			sourceTree = "<group>";
+		};
+		1E82D19B1F82DB3B000E28F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E82D19C1F82DB3B000E28F5 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E82D1651F82C45D000E28F5 /* NTXSoccerFieldMaps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E82D18E1F82C45E000E28F5 /* Build configuration list for PBXNativeTarget "NTXSoccerFieldMaps" */;
+			buildPhases = (
+				1E82D1621F82C45D000E28F5 /* Sources */,
+				1E82D1631F82C45D000E28F5 /* Frameworks */,
+				1E82D1641F82C45D000E28F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NTXSoccerFieldMaps;
+			productName = NTXSoccerFieldMaps;
+			productReference = 1E82D1661F82C45E000E28F5 /* NTXSoccerFieldMaps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E82D1791F82C45E000E28F5 /* NTXSoccerFieldMapsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E82D1911F82C45E000E28F5 /* Build configuration list for PBXNativeTarget "NTXSoccerFieldMapsTests" */;
+			buildPhases = (
+				1E82D1761F82C45E000E28F5 /* Sources */,
+				1E82D1771F82C45E000E28F5 /* Frameworks */,
+				1E82D1781F82C45E000E28F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E82D17C1F82C45E000E28F5 /* PBXTargetDependency */,
+			);
+			name = NTXSoccerFieldMapsTests;
+			productName = NTXSoccerFieldMapsTests;
+			productReference = 1E82D17A1F82C45E000E28F5 /* NTXSoccerFieldMapsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E82D1841F82C45E000E28F5 /* NTXSoccerFieldMapsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E82D1941F82C45E000E28F5 /* Build configuration list for PBXNativeTarget "NTXSoccerFieldMapsUITests" */;
+			buildPhases = (
+				1E82D1811F82C45E000E28F5 /* Sources */,
+				1E82D1821F82C45E000E28F5 /* Frameworks */,
+				1E82D1831F82C45E000E28F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E82D1871F82C45E000E28F5 /* PBXTargetDependency */,
+			);
+			name = NTXSoccerFieldMapsUITests;
+			productName = NTXSoccerFieldMapsUITests;
+			productReference = 1E82D1851F82C45E000E28F5 /* NTXSoccerFieldMapsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E82D15E1F82C45D000E28F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Manandhar, Bishesh";
+				TargetAttributes = {
+					1E82D1651F82C45D000E28F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9KR22J3MCB;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					1E82D1791F82C45E000E28F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9KR22J3MCB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E82D1651F82C45D000E28F5;
+					};
+					1E82D1841F82C45E000E28F5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9KR22J3MCB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E82D1651F82C45D000E28F5;
+					};
+				};
+			};
+			buildConfigurationList = 1E82D1611F82C45D000E28F5 /* Build configuration list for PBXProject "NTXSoccerFieldMaps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E82D15D1F82C45D000E28F5;
+			productRefGroup = 1E82D1671F82C45E000E28F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E82D1651F82C45D000E28F5 /* NTXSoccerFieldMaps */,
+				1E82D1791F82C45E000E28F5 /* NTXSoccerFieldMapsTests */,
+				1E82D1841F82C45E000E28F5 /* NTXSoccerFieldMapsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E82D1641F82C45D000E28F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E82D1741F82C45E000E28F5 /* LaunchScreen.storyboard in Resources */,
+				1E82D1711F82C45E000E28F5 /* Assets.xcassets in Resources */,
+				1E82D16F1F82C45E000E28F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82D1781F82C45E000E28F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82D1831F82C45E000E28F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E82D1621F82C45D000E28F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E9F1B1C1FA67302003B4EE6 /* popupRussellCreek.swift in Sources */,
+				1E9F1B321FA6A097003B4EE6 /* popupDallasImage.swift in Sources */,
+				1E39CAE81FAD1A68005CD2CD /* popupCalendarViewController.swift in Sources */,
+				1EB91FA91FA91FAF006C42CC /* popupUtdimage.swift in Sources */,
+				1E9F1B241FA6843D003B4EE6 /* popupPit.swift in Sources */,
+				1E1BF9B01F8AEEB100CEAB84 /* popupChinn.swift in Sources */,
+				1EBB72E71FA12AC1006C6E1E /* PopupWisemenImage.swift in Sources */,
+				1E9F1B1E1FA67575003B4EE6 /* popupRussellImage.swift in Sources */,
+				1ECA150C1FA24D50001A8963 /* popupRichland.swift in Sources */,
+				1E82D1981F82CB5D000E28F5 /* popupWisemen.swift in Sources */,
+				1E82D16C1F82C45E000E28F5 /* ViewController.swift in Sources */,
+				1E82D16A1F82C45E000E28F5 /* AppDelegate.swift in Sources */,
+				1E1BF9AE1F8AE7AB00CEAB84 /* carpenterPopup.swift in Sources */,
+				1E9F1B261FA68849003B4EE6 /* popupPitImage.swift in Sources */,
+				1ECA150A1FA24526001A8963 /* popupMoneyGramImage.swift in Sources */,
+				1E9F1B2E1FA69984003B4EE6 /* popupImageRailroad.swift in Sources */,
+				1E9F1B221FA67F09003B4EE6 /* popupColonyImage.swift in Sources */,
+				1E1BF9B21F8AF3D300CEAB84 /* popupMcInnish.swift in Sources */,
+				1EB91FAB1FA927D5006C42CC /* searchBar.swift in Sources */,
+				1ECA15061FA23A5F001A8963 /* popupCarpenterImage.swift in Sources */,
+				1EBB72ED1FA144DF006C6E1E /* PopupChinnImage.swift in Sources */,
+				1E9F1B301FA69DEC003B4EE6 /* popupDallas.swift in Sources */,
+				1EBB72EF1FA14A34006C6E1E /* popupMcinnishImage.swift in Sources */,
+				1ECA15081FA24112001A8963 /* popupMoneyGram.swift in Sources */,
+				1ECDEFA81FAB9D0A00AD4667 /* popupLeague.swift in Sources */,
+				1E9F1B2C1FA69840003B4EE6 /* popupRailroad.swift in Sources */,
+				1E39CAEA1FAD1B93005CD2CD /* addEvent.swift in Sources */,
+				1E9F1B201FA67BCD003B4EE6 /* popupColony.swift in Sources */,
+				1EB91FA71FA91E48006C42CC /* popupUtdallas.swift in Sources */,
+				1ECA150E1FA24F59001A8963 /* popupRichlandImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82D1761F82C45E000E28F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E82D17F1F82C45E000E28F5 /* NTXSoccerFieldMapsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E82D1811F82C45E000E28F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E82D18A1F82C45E000E28F5 /* NTXSoccerFieldMapsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E82D17C1F82C45E000E28F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E82D1651F82C45D000E28F5 /* NTXSoccerFieldMaps */;
+			targetProxy = 1E82D17B1F82C45E000E28F5 /* PBXContainerItemProxy */;
+		};
+		1E82D1871F82C45E000E28F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E82D1651F82C45D000E28F5 /* NTXSoccerFieldMaps */;
+			targetProxy = 1E82D1861F82C45E000E28F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E82D16D1F82C45E000E28F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E82D16E1F82C45E000E28F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E82D1721F82C45E000E28F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E82D1731F82C45E000E28F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E82D18C1F82C45E000E28F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E82D18D1F82C45E000E28F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E82D18F1F82C45E000E28F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9KR22J3MCB;
+				INFOPLIST_FILE = NTXSoccerFieldMaps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bisheshmanandhar.NTXFieldMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1E82D1901F82C45E000E28F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 9KR22J3MCB;
+				INFOPLIST_FILE = NTXSoccerFieldMaps/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bisheshmanandhar.NTXFieldMaps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1E82D1921F82C45E000E28F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9KR22J3MCB;
+				INFOPLIST_FILE = NTXSoccerFieldMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bisheshmanandhar.NTXSoccerFieldMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTXSoccerFieldMaps.app/NTXSoccerFieldMaps";
+			};
+			name = Debug;
+		};
+		1E82D1931F82C45E000E28F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9KR22J3MCB;
+				INFOPLIST_FILE = NTXSoccerFieldMapsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bisheshmanandhar.NTXSoccerFieldMapsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NTXSoccerFieldMaps.app/NTXSoccerFieldMaps";
+			};
+			name = Release;
+		};
+		1E82D1951F82C45E000E28F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9KR22J3MCB;
+				INFOPLIST_FILE = NTXSoccerFieldMapsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bisheshmanandhar.NTXSoccerFieldMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NTXSoccerFieldMaps;
+			};
+			name = Debug;
+		};
+		1E82D1961F82C45E000E28F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9KR22J3MCB;
+				INFOPLIST_FILE = NTXSoccerFieldMapsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bisheshmanandhar.NTXSoccerFieldMapsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = NTXSoccerFieldMaps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E82D1611F82C45D000E28F5 /* Build configuration list for PBXProject "NTXSoccerFieldMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E82D18C1F82C45E000E28F5 /* Debug */,
+				1E82D18D1F82C45E000E28F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E82D18E1F82C45E000E28F5 /* Build configuration list for PBXNativeTarget "NTXSoccerFieldMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E82D18F1F82C45E000E28F5 /* Debug */,
+				1E82D1901F82C45E000E28F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E82D1911F82C45E000E28F5 /* Build configuration list for PBXNativeTarget "NTXSoccerFieldMapsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E82D1921F82C45E000E28F5 /* Debug */,
+				1E82D1931F82C45E000E28F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E82D1941F82C45E000E28F5 /* Build configuration list for PBXNativeTarget "NTXSoccerFieldMapsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E82D1951F82C45E000E28F5 /* Debug */,
+				1E82D1961F82C45E000E28F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E82D15E1F82C45D000E28F5 /* Project object */;
+}
